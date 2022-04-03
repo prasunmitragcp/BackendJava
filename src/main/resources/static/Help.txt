@@ -1,0 +1,5 @@
+Execute spring boot application. Need to kill the running port and then restart/
+Using powershell
+
+netstat -ano | findstr :8084
+ taskkill /PID 13428 /F
