@@ -1,12 +1,11 @@
 spring:
  application:
   name: fdreactjspoc
-  port: 8084
  datasource:
   driverClassName: com.mysql.cj.jdbc.Driver
   url: "jdbc:mysql://34.72.151.95/reactjs?useSSL=false"
   password: "admin"
-  username: "fdreactjspoc"
+  username: "root"
   testOnBorrow: true
   testWhileIdle: true
   timeBetweenEvictionRunsMillis: 60000
