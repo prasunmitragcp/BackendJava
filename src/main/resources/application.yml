@@ -9,7 +9,7 @@ spring:
   testOnBorrow: true
   testWhileIdle: true
   timeBetweenEvictionRunsMillis: 60000
-  minEvictableIdleTimeMillis: 3000
+  minEvictableIdleTimeMillis: 30000
   validationQuery: SELECT 1
   max-active: 15
   max-wait: 8000
